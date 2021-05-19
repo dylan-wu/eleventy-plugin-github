@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+demo/.env
+demo/node_modules
+demo/_site
+demo/package-lock.json
+demo/.cache
