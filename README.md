@@ -1,1 +1,1 @@
-# eleventy-plugin-github-issues
+# eleventy-plugin-github
