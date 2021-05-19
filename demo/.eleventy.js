@@ -1,5 +1,3 @@
-// const pluginGhost = require("../"); // For local development
-
 const pluginGithub = require("../");
 
 require("dotenv").config();
