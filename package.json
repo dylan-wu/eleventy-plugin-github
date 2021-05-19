@@ -1,0 +1,37 @@
+{
+    "name": "eleventy-plugin-github",
+    "version": "1.2.1",
+    "description": "Access the Github as global data in Eleventy",
+    "homepage": "https://github.com/dylan-wu/eleventy-plugin-github",
+    "main": ".eleventy.js",
+    "scripts": {
+        "build": "eleventy",
+        "bump": "npm --no-git-tag-version version"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dylan-wu/eleventy-plugin-github.git"
+    },
+    "keywords": [
+        "11ty",
+        "11ty-plugin",
+        "eleventy",
+        "eleventy-plugin",
+        "github",
+        "github api",
+        "headless-cms"
+    ],
+    "author": {
+        "name": "Dylan Wu",
+        "url": "https://dylanwu.com"
+    },
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/dylan-wu/eleventy-plugin-github/issues"
+    },
+    "dependencies": {
+        "@11ty/eleventy": "github:11ty/eleventy#canary",
+        "@11ty/eleventy-cache-assets": "^2.1.0",
+        "octokit": "^1.0.5"
+    }
+}

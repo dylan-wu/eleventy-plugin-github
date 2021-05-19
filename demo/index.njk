@@ -1,0 +1,11 @@
+{% extends "base.njk" %}
+
+{% block main %}
+  <h2>Issues</h2>
+  <ul>
+    {% for issue in github.issues %}
+      <li><a href="/{{ issue.number }}/">{{ issue.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+{% endblock %}

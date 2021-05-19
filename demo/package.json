@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "github:11ty/eleventy#canary",
+    "dotenv": "^8.2.0",
+    "eleventy-plugin-ghost": "^1.2.0",
+    "octokit": "^1.0.5"
+  }
+}

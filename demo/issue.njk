@@ -1,0 +1,19 @@
+---
+pagination:
+  data: github.issues
+  size: 1
+  alias: issue
+permalink: "/{{ issue.number }}/"
+---
+
+{% extends "base.njk" %}
+
+{% block title %}{{ issue.title }}{% endblock %}
+
+{% block main %}
+  <h1>{{ issue.title }}</h1>  
+  {{ issue.body | safe }}
+  {% for comment in issue.comments %}
+    <p>{{ comment.body | safe }}
+  {% endfor %}
+{% endblock %}
