@@ -1,6 +1,6 @@
 {
     "name": "eleventy-plugin-github",
-    "version": "1.2.1",
+    "version": "0.1.0",
     "description": "Access the Github as global data in Eleventy",
     "homepage": "https://github.com/dylan-wu/eleventy-plugin-github",
     "main": ".eleventy.js",
@@ -25,13 +25,14 @@
         "name": "Dylan Wu",
         "url": "https://dylanwu.com"
     },
-    "license": "ISC",
+	  "license": "MIT",
     "bugs": {
         "url": "https://github.com/dylan-wu/eleventy-plugin-github/issues"
     },
     "dependencies": {
         "@11ty/eleventy": "github:11ty/eleventy#canary",
-        "@11ty/eleventy-cache-assets": "^2.1.0",
-        "octokit": "^1.0.5"
+        "@11ty/eleventy-cache-assets": "^2.2.1",
+        "octokit": "^1.0.5",
+        "debug": "^4.3.1"     
     }
 }
